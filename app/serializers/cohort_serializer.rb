@@ -2,7 +2,7 @@ class CohortSerializer
   include JSONAPI::Serializer
   attributes :name, :start_date, :graduation_date
 
-  ### This relations is also returned in the JSON data. 
+  ### This relations is also returned in the JSON data. Good to know things ###
   # has_many :students
 
   attribute :number_of_students do |object|
